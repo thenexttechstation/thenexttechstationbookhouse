@@ -9,7 +9,7 @@ const expressValidator = require("express-validator");
 const cors = require("cors");
 // database
 mongoose
-  .connect(process.env.MONGOATLAS_URI, {
+  .connect(process.env.DATABASE, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
