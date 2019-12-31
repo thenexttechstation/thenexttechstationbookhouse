@@ -44,5 +44,5 @@ thenexttechbookstationapp.use("/bookhouseapi", bookhouseOrderRoutes);
 const port = process.env.PORT || 8000;
 
 thenexttechbookstationapp.listen(port, () => {
-  console.log("Server is running on port" + port);
+  console.log("Server is running on port s" + port);
 });
